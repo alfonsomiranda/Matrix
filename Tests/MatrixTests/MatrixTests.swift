@@ -3,6 +3,6 @@ import XCTest
 
 final class MatrixTests: XCTestCase {
     func testHello() throws {
-        XCTAssertEqual(Matrix.hello(name: "Alfonso"), "Hello  Alfonso")
+        XCTAssertEqual(Matrix.hello(name: "Alfonso"), "Hello, Alfonso")
     }
 }
